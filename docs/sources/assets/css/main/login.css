@@ -208,7 +208,7 @@ button{
     color: var(--schflr);
     font-size: 60px;
     margin-bottom: 25px;
-    font-family: 'Germanica';
+    font-family: 'Germanica', 'Poppins';
 }
 
 .Lower-Title{
@@ -219,7 +219,7 @@ button{
 .Lower-Title b{
     color: var(--forerunner-alloy-sand);
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'Poppins';
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 15px;
@@ -233,7 +233,7 @@ button{
 .Lower-Title a b{
     color: var(--LED);
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'Poppins';
     font-weight: 700;
     transition: 0.3s;
 }
@@ -292,7 +292,7 @@ button{
     font-size: 26px;
     color: var(--LED);
     background-color: var(--schflr);
-    font-family: 'Germanica';
+    font-family: 'Germanica', 'Poppins';
 }
 
 .Input input::placeholder{

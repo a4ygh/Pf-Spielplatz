@@ -1,8 +1,0 @@
-- Dark Back, Text little lighter, pushed (embeded) in to the Back.
-- The Site moves your POV, not you (Desable Scrolling, implement buttons navigators).
-- Simplistic and Efficiently (Clear looking and limited to no stutter/glitches) Styled.
-- Blank Screen, if you go to a Section, the Section appears (Fade in) and the Section you left disappears (Fade out). :animation all.
-- Experiment with sound.
-- Login Screen
-- 
-- 

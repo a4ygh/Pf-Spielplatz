@@ -37,8 +37,8 @@ font-family: 'Halo Outline', sans-serif;
 /*Germanica*/
 @font-face{
     font-family: 'Germanica';
-    src:    url('/docs/sources/assets/imported-fonts/germanica/Germanica.woff') format('woff'),
-            url('/docs/sources/assets/imported-fonts/germanica/Germanica.woff2') format('woff2');
+    src:    url('../../docs/sources/assets/imported-fonts/germanica/Germanica.woff') format('woff'),
+            url('../../docs/sources/assets/imported-fonts/germanica/Germanica.woff2') format('woff2');
 }
 /*
 font-family: 'Germanica';

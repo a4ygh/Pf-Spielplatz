@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 3px solid #b88bc9; */
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: var(--forerunner-alloy);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*Transfer*/ /*Transfer*/ /*Transfer*/
+
+.Transfer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.PWRD{
+    margin-bottom: 70px;
+}
+
+@keyframes l4{to{clip-path: inset(0 -1ch 0 0)}}
+
+.PWRD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PWRD-Symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PWRD-Symbol img{
+    width: 100px;
+    animation: PWRD-S 1.5s ease-out -1s infinite alternate forwards;
+}
+
+@keyframes PWRD-S{
+    25%{
+        width: 100px;
+        box-shadow: 0 0 40px var(--rotstein-rot) ,0 0 30px var(--rotstein-rot);
+    }
+    50%{
+        width: 100px;
+    }
+    75%{
+        width: 100px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+b{
+    margin: 5px;
+    font-family: 'Poppins';
+    font-size: 34px;
+}
+
+.PWRD-Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PWRD-Text1{
+    color: var(--sun);
+}
+
+.PWRD-Text2{
+    color: var(--rotstein-rot);
+    font-family: 'Germanica';
+    font-size: 44px;
+}
+
+.PWRD-Text3{
+    color: var(--rotstein-text);
+    font-family: 'Germanica';
+    font-size: 44px;
+}
+
+@media (max-width: 2000px){
+    .PWRD-Text{
+        flex-direction: column;
+    }
+    
+}
+
+.loader {
+    color: var(--forerunner-alloy-ridge-light);
+    width: 4px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    box-shadow: -20px 80px 0 7px, 0px 80px 0 3px, 20px 80px 0 0;
+    animation: loader .7s infinite alternate linear;
+}
+  
+@keyframes loader {
+    50%  {box-shadow: -20px 80px 0 3px, 0px 80px 0 7px, 20px 80px 0 3px}
+    100% {box-shadow: -20px 80px 0 0  , 0px 80px 0 3px, 20px 80px 0 7px}
+}

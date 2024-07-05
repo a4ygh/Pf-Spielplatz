@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Transfer-->
+    <!--<meta http-equiv="refresh" content="0; URL=(HTML file=portfolio (without .html))">-->
+    <title>Anmeldefenster</title> <!--Tab Title-->
+
+    <!--Bar Color-->
+
+    <!--Tab Background-->
+    <meta name="theme-color" content="#000000"/>
+
+
+    <!--Search Engine-->
+    <meta name="title" content="X">
+    <meta name="description" content="Y">
+    <meta name="keywords" content="SOMETHING, "/>
+
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../docs/sources/assets/images/svg/logo.ico" type="image/x-icon">
+
+    <!--css-->
+
+    <!--Main-->
+    <link rel="stylesheet" href="../docs/sources/assets/css/main/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Colors-->
+    <link rel="stylesheet" href="../docs/sources/assets/css/color/color.css">
+    <!--Fonts-->
+    <link rel="stylesheet" href="../docs/sources/assets/css/fonts/fonts.css">
+    
+    
+
+    <!--js-->
+
+    <!--Main-->
+    <script src="../docs/sources/assets/js/login.js"></script>
+    <!--Security-->
+    <script src="../docs/sources/assets/js/rsgw.js"></script>
+
+
+    <!--X-->
+</head>
+<body>
+    <div class="Login">
+        <section id="ms" class="modal-success"> <!--Verification-->
+            <div class="ms-text">
+                <p class="ms-wait">
+                    Anmeldung...
+                </p>
+                <p class="ms-result">
+                    Erfolgreich
+                </p>
+            </div>
+            <div class="ms-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+        </section>
+        <section id="mf" class="modal-fail">
+            <div class="mf-text">
+                <p class="mf-wait">
+                    Anmeldung...
+                </p>
+                <p class="mf-result">
+                    Fehlgeschlagen
+                </p>
+            </div>
+            <div class="mf-icon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </section>
+        <div id="ol" class="overlay"></div> <!--Verification-->
+
+        <div class="Login-Window">
+            <div class="Title">
+                <div class="Upper-Title">
+                    <h1>
+                        Anmeldung ist erfoderlich
+                    </h1>
+                </div>
+                <div class="Lower-Title">
+                    <b>
+                        Die entsprechenden Daten sollten Sie bereits erhalten haben, wenn nicht Kontaktieren Sie den Eigentümer per E-Mail.
+                    </b>
+                    <a href="mailto:rudermann.info@gmx.de">
+                        <b>
+                            Mail öffnen
+                        </b>
+                    </a>
+                </div>
+            </div>
+            <div class="Line"></div>
+            <div class="Text-Field">
+                <div class="Input">
+                    <input type="email" id="email" placeholder="E-Mail" autocomplete="off" class="Text-Field-Mail" required>
+                    <input type="password" id="password" placeholder="Password" autocomplete="off" class="Text-Field-Password" required>  
+                </div>
+                <div class="Button" id="B-NAV">
+                    <div class="B-Field">
+                        <button type="submit" onclick="getInfo()" id="B-DOWN">
+                            V
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="Line"></div>
+            <div class="Register-Transfer">
+                <a href="register.html">
+                    <b>
+                        Ich möchte/muss mich Registrieren
+                    </b>
+                </a>
+            </div>
+            <div class="Rotstein-Symbol">
+                <div class="RS-Text">
+                    <b>
+                        Secured by
+                    </b>
+                </div>
+                <a href="../docs/featured/rotstein.html">
+                    <img src="./sources/assets/images/featured/Rotstein-QR.png" alt="">
+                </a>
+            </div>
+            <div class="Mention">
+                <b>
+                    Alle Inhalte dieser Website sind fiktiv und sollten nicht ernst genommen werden
+                </b>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/*Google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*
+font-family: 'Poppins';
+*/
+
+
+/*Ramm-Alphabet*/
+@import url('https://fonts.cdnfonts.com/css/rammstein');
+/*
+font-family: 'Rammstein by Wojciech';
+*/
+
+
+/*Ramm-Nummern*/
+@import url('https://fonts.cdnfonts.com/css/rammstein-remix');
+/*
+font-family: 'Rammstein Remix';
+*/
+
+
+/*Forerunner*/
+@import url('https://fonts.cdnfonts.com/css/forerunner');
+/*
+font-family: 'Forerunner';
+*/
+
+
+/*Halo*/
+@import url('https://fonts.cdnfonts.com/css/halo');
+/*
+font-family: 'Halo', sans-serif;
+font-family: 'Halo Outline', sans-serif;
+*/
+
+
+/*Germanica*/
+@font-face{
+    font-family: 'Germanica';
+    src:    url('/docs/sources/assets/imported-fonts/germanica/Germanica.woff') format('woff'),
+            url('/docs/sources/assets/imported-fonts/germanica/Germanica.woff2') format('woff2');
+}
+/*
+font-family: 'Germanica';
+*/

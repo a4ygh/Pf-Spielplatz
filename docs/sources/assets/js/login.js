@@ -25,7 +25,7 @@ function getInfo() {
             console.log(email + " is logged in!!!")
             ms.classList.add('reveal')
             ol.classList.add('rol')
-            setTimeout(function(){location.href = "./portfolio.html"}, 4000)
+            setTimeout(function(){location.href = "./portfolio"}, 4000)
             return
         }
     }

@@ -188,11 +188,18 @@ button{
 
 
 @media (max-width: 1000px){
-    .Register-Window{
-        width: 400px;
+    .Register{
+        width: min-content;
         height: min-content;
     }
+
+    .Register-Window{
+        width: 390px;
+        height: min-content;
+        padding: 30px;
+    }
 }
+
 
 /*TOP*/ /*TOP*/ /*TOP*/
 
@@ -258,7 +265,6 @@ button{
 .Input{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,23 +360,34 @@ button#B-DOWN:hover{
     
     .Text-Field{
         width: min-content;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
     
     .Input{
         margin-top: 10px;
-        margin-right: 0px;
+    }
+
+    .Input input{
+        font-size: 36px;
     }
     
     .Text-Field-Mail{
         margin-bottom: 10px;
     }
-    
+
+    .Button button{
+        width: 160px;
+        height: 160px;
+        font-size: 80px;
+    }
+
     .B-Field{
-        height: 50%;
+        width: 255px;
+        height: 175px;
+    }
+    
+    button#B-DOWN:hover{
+        width: 240px;
     }
 }
 
@@ -436,8 +453,6 @@ button#B-DOWN:hover{
     
     .Rotstein-Symbol img{
         width: 40px;
-        margin-left: 5px;
-        transition: 0.5s;
     }
     
     .Mention{

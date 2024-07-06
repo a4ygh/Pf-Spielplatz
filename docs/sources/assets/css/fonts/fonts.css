@@ -35,6 +35,7 @@ font-family: 'Halo Outline', sans-serif;
 
 
 /*Germanica*/
+@import url('https://fonts.cdnfonts.com/css/germanica-2');
 @font-face{
     font-family: 'Germanica';
     src:    url('/docs/sources/assets/imported-fonts/germanica/Germanica.woff') format('woff'),

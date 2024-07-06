@@ -16,8 +16,8 @@ body
 {
     display: grid;
     place-items: center;
-    justify-content: center;
     width: 100vw; /*Change so POV cannot change*/
+    height: 100vh;
     overflow-x: hidden;
     background-color: var(--forerunner-alloy-ridge-dark);
 }
@@ -29,10 +29,6 @@ img{
 ::selection{
     background-color: var(--LED);
     color: var(--schflr);
-}
-
-@media (max-width: 1000px){
-
 }
 
 /*Modal*/ /*Modal*/ /*Modal*/
@@ -115,6 +111,7 @@ img{
 button{
     cursor: pointer;
     border: none;
+    font-weight: 600;
 }
 
 .btn{
@@ -166,7 +163,7 @@ button{
 
 /*Login*/ /*Login*/ /*Login*/
 
-.Login{
+.Register{
     width: 1000px;
     height: 1000px;
     display: flex;
@@ -174,7 +171,7 @@ button{
     justify-content: center;
 }
 
-.Login-Window{
+.Register-Window{
     background-color: transparent;
     border-radius: 25px;
     width: min-content;
@@ -191,16 +188,9 @@ button{
 
 
 @media (max-width: 1000px){
-    .Login{
-        width: min-content;
+    .Register-Window{
+        width: 400px;
         height: min-content;
-        margin: 15px;
-    }
-
-    .Login-Window{
-        width: 390px;
-        height: min-content;
-        padding: 30px;
     }
 }
 
@@ -232,24 +222,6 @@ button{
     font-family: 'Poppins', 'Poppins';
     font-weight: 700;
     font-size: 15px;
-    margin-bottom: 15px;
-}
-
-.Lower-Title a{
-    text-decoration: none;
-    margin: auto;
-}
-
-.Lower-Title a b{
-    color: var(--LED);
-    text-decoration: none;
-    font-family: 'Poppins', 'Poppins';
-    font-weight: 700;
-    transition: 0.3s;
-}
-
-.Lower-Title a b:hover{
-    text-shadow: 0 0 10px #fff, 0 0 20px var(--schflr);
 }
 
 
@@ -262,7 +234,6 @@ button{
     
     .Lower-Title b{
         font-size: 12px;
-        margin-bottom: 15px;
     }
 }
 
@@ -277,6 +248,7 @@ button{
 }
 
 .Text-Field{
+
     width: 600px;
     display: flex;
     align-items: center;
@@ -337,7 +309,7 @@ button{
     background-color: var(--shadow);
     color: var(--LED);
     border: 3px solid var(--monitor);
-    border-radius: 100%;
+    border-radius: 50px;
     transition: 0.4s;
     width: 80px;
     height: 80px;
@@ -382,35 +354,23 @@ button#B-DOWN:hover{
     
     .Text-Field{
         width: min-content;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
     
     .Input{
         margin-top: 10px;
         margin-right: 0px;
     }
-
-    .Input input{
-        font-size: 36px;
-    }
     
     .Text-Field-Mail{
         margin-bottom: 10px;
     }
-
-    .Button button{
-        width: 160px;
-        height: 160px;
-        font-size: 80px;
-    }
-
-    .B-Field{
-        width: 255px;
-        height: 175px;
-    }
     
-    button#B-DOWN:hover{
-        width: 240px;
+    .B-Field{
+        height: 50%;
     }
 }
 

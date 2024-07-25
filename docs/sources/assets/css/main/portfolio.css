@@ -465,6 +465,10 @@ img[alt="S4-P0.4-img"], img[alt="S4-P0.5-img"]{
         flex-direction: column;
     }
 
+    .S4-P{
+        flex-direction: column;
+    }
+
     .S4-P-1-Text, .S4-P-2-Text{
         margin-bottom: 75px;
     }

@@ -24,7 +24,7 @@ body{
 }
 
 h1, b, a{
-    font-family: 'Germanica';
+    font-family: 'Poppins';
 }
 
 h1{
@@ -128,18 +128,18 @@ header img[alt*="logo-Invis"]{
 }
 
 .S1-B-C-Title{
-    font-size: 150px; /* <h1>px + <p>px = A --> A / 2 = B --> A + B =__ */
+    font-size: 112.5px; /* <h1>px + <p>px = A --> A / 2 = B --> A + B =__ */
     color: var(--rotstein-rot);
 }
 
 .S1-B-C-Text{
-    font-size: 60px; /* <p>px / 2 = A --> <h1>px + A =__ */
+    font-size: 45px; /* <p>px / 2 = A --> <h1>px + A =__ */
     letter-spacing: 1px;
     color: var(--rotstein-text);
 }
 
 .S1-B-C-Author{
-    font-size: 40px; /* User Choice */
+    font-size: 30px; /* User Choice */
     letter-spacing: 1px;
     color: var(--forerunner-alloy-ridge-light);
 }
@@ -155,15 +155,15 @@ header img[alt*="logo-Invis"]{
     }
  
     .S1-B-C-Title{
-        font-size: 112.5px; /* <te>px + <a>px = A --> A / 2 = B --> A + B = <ti>px */
+        font-size: 84.375px; /* <te>px + <a>px = A --> A / 2 = B --> A + B = <ti>px */
     }
     
     .S1-B-C-Text{
-        font-size: 45px; /* <a>px / 2 = A --> <a>px + A = <te>px */
+        font-size: 33.75px; /* <a>px / 2 = A --> <a>px + A = <te>px */
     }
     
     .S1-B-C-Author{
-        font-size: 30px; /* User Choice */
+        font-size: 22.5px; /* User Choice */
     }
 }
 
@@ -237,13 +237,11 @@ header img[alt*="logo-Invis"]{
 
 .S2-C-HT b, .S2-C-GR b, .S2-C-LS b{
     color: var(--forerunner-alloy-ridge-light);
-    font-size: 35px; /* h1 / 2 = fs */
-    letter-spacing: 2px;
+    font-size: 27px; /* h1 / 2 = fs */
 }
 
 .S2-C-HT h1, .S2-C-GR h1, .S2-C-LS h1{
-    font-size: 70px; /* User Choice */
-    letter-spacing: 2px;
+    font-size: 54px; /* User Choice */
 }
 
 .S2-C-HT-Top, .S2-C-GR-Top, .S2-C-LS-Top{
@@ -314,11 +312,11 @@ header img[alt*="logo-Invis"]{
     }
 
     .S2-C-HT b, .S2-C-GR b, .S2-C-LS b{
-        font-size: 17.5px;
+        font-size: 13.5px;
     }
     
     .S2-C-HT h1, .S2-C-GR h1, .S2-C-LS h1{
-        font-size: 35px;
+        font-size: 27px;
     }
 }
 
@@ -352,7 +350,7 @@ header img[alt*="logo-Invis"]{
 
 .S3 h1{
     color: var(--forerunner-alloy-ridge-light);
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 2px;
 }
 

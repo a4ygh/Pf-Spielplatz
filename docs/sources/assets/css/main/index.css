@@ -93,14 +93,14 @@ b{
 
 .PWRD-Text2{
     color: var(--rotstein-rot);
-    font-family: 'Germanica', 'Poppins';
-    font-size: 44px;
+    font-family: 'Poppins';
+    font-size: 34px;
 }
 
 .PWRD-Text3{
     color: var(--rotstein-text);
-    font-family: 'Germanica', 'Poppins';
-    font-size: 44px;
+    font-family: 'Poppins';
+    font-size: 34px;
 }
 
 @media (max-width: 2000px){

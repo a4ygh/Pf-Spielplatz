@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid #b88bc9; */
+    user-select: none;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background:
+    radial-gradient(ellipse at 10% 10%, var(--LED) -300%, transparent 40%),
+    radial-gradient(ellipse at 100% 100%, var(--schwarz) -150%, transparent 40%);
+    background-color: var(--forerunner-alloy-ridge-dark);
+    user-select: none; /*might be changed for user exp*/
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+h1, b, a{
+    color: var(--forerunner-alloy-ridge-light);
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+h1{
+    font-size: 70px;
+}
+
+b{
+    font-size: 30px;
+}
+
+a{
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+@media (max-width: 2000px){
+    h1{
+        font-size: 50px;
+    }
+    
+    b{
+        font-size: 20px;
+    }
+}
+
+/*pre-project0-4*/ /*pre-project0-4*/ /*pre-project0-4*/
+
+.pre-project0-4{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    width: 2000px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 2000px){
+    .pre-project0-4{
+        width: 1000px;
+    }
+}
+
+/*pre-project0-4*/ /*pre-project0-4*/ /*pre-project0-4*/
+
+.pp04-IMG{
+    -webkit-appearance: none;
+    box-shadow: inset 8px 8px 16px #202221, inset -8px -8px 16px #363837;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pp04-IMG img{
+    width: 800px;
+}
+
+.pp04-TXT{
+    width: 1500px;
+    -webkit-appearance: none;
+    box-shadow: inset 8px 8px 16px #202221, inset -8px -8px 16px #363837;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 2000px){
+    .pp04-TXT{
+        width: 950px;
+    }
+}
+
+.pp04-TXT-Title, .pp04-TXT-Goal, .pp04-TXT-D-Title{
+    margin-bottom: 40px;
+}
+
+.pp04-TXT-Title h1{
+    animation: breath infinite alternate;
+    animation-duration: 1s;
+}
+
+@keyframes breath{
+    from{
+        text-shadow: 0 0 0px #fff;
+    }
+    to{
+        text-shadow: 0 0 15px #fff;
+    } 
+}
+
+.pp04-TXT-Goal{
+    text-decoration: underline 4px;
+    color: var(--forerunner-alloy-ridge-light);
+}
+
+.pp04-TXT-Describtion{
+    font-style: italic;
+}
+
+.pp04-TXT-Describtion{
+    display: flex;
+    flex-direction: column;
+}
+
+.pp04-TXT-D-Title{
+    text-align: left;
+}
+
+.pp04-BTN, .BB{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pp04-BTN a, .BB a{
+    font-size: 60px;
+    background: #2b2d2c;
+    box-shadow:  5px 5px 10px #202221, -5px -5px 10px #363837;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp04-BTN a:hover, .BB a:hover{
+    text-shadow: 0 0 15px #fff;
+}
+
+.pp04-BTN a:active, .BB a:active{
+    box-shadow: inset 5px 5px 10px #202221, inset -5px -5px 10px #363837;
+    text-shadow: 0 0 0px #fff;
+}

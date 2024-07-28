@@ -19,10 +19,6 @@ body{
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
-
 h1, b, a{
     font-family: 'Poppins';
 }
